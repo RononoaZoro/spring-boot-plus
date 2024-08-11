@@ -31,6 +31,7 @@ import javax.validation.ConstraintValidatorContext;
  */
 public class EnumTypeValidator implements ConstraintValidator<EnumType, Integer> {
 
+
     private Class<? extends BaseEnum> baseEnum;
 
     @Override
